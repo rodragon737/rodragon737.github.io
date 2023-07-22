@@ -1,0 +1,185 @@
+
+/* Computer () ----------- */
+@media only screen
+and (min-device-width : 480px) {
+  /* Styles */
+  .TodoCounter {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+    font-weight: bold;
+    color: white;
+  }
+  .Date{
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    color: black;
+  }
+  .Percent{
+    margin: 10px 0% 0% 10%;
+    background: white;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+    border-radius: 6px;
+    height: 48px;
+    width: 64px;
+    text-align: center;
+  }
+  .TextPerc{
+    text-align:center;
+    font-size:24px;
+    margin-top: 18px;
+    margin-bottom: 22px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0% 0% 10%;
+  }
+  .DivProgress{
+    display: grid;
+    grid-template-columns: 5% 65% 30%;
+    grid-auto-flow: column;
+  }
+  .DivDate{
+    font-size: 22px;  
+    color: white;
+    border-radius: 10px;
+    height: 48px;
+    width: 22%;
+    text-align:justify;
+    margin: 2% 0 20% 10%;
+    font-weight: bold;
+    align-items: center;
+    top: 14px;
+    right: 2px;
+    display: flex;
+    position: fixed;
+    z-index: 5;
+    text-align: right;
+  }
+  .TodoCounter span {
+    font-weight:bolder;
+    color:#61DAFA;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .Progress {  
+    margin: 10px 0% 0% 10%;
+    height: 48px;
+    width: 100%;
+    -webkit-appearance: none;
+  }
+  ::-webkit-progress-bar {
+    background-color:whitesmoke;
+    border-radius: 6px;
+  }
+  ::-webkit-progress-value {
+    background-color: #61DAFA;
+    text-align: center;
+    border-radius: 6px;
+  }
+  ::-webkit-progress-inner-element {
+    border: 2px solid white;
+    border-radius: 9px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 479px) {
+/* Styles */
+  .TodoCounter {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+    font-weight: bold;
+    color: white;
+  }
+  .Date{
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    color: black;
+  }
+  .Percent{
+    margin: 10px 0% 0% 10%;
+    background: white;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+    border-radius: 10px;
+    height: 48px;
+    width: 64px;
+    text-align: center;
+  }
+  .TextPerc{
+    text-align:center;
+    font-size:26px;
+    margin-top: 18px;
+    margin-bottom: 22px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0% 0% 10%;
+  }
+  .DivProgress{
+    display: grid;
+    grid-template-columns: 20% 45% 35%;
+    grid-auto-flow: column;
+  }
+  .DivDate{
+    font-size: 15px;  
+    color: white;
+    border-radius: 10px;
+    height: 48px;
+    width: 22%;
+    text-align:justify;
+    margin: 0 15px 0 0;
+    font-weight: bold;
+    align-items: center;
+    top: 14px;
+    right: 5px;
+    display: flex;
+    position: fixed;
+    z-index: 5;
+    text-align: right;
+  }
+  .TodoCounter span {
+    font-weight:bolder;
+    color:#61DAFA;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .Progress {  
+    margin: 10px 0% 0% 10%;
+    height: 48px;
+    width: 100%;
+    -webkit-appearance: none;
+  }
+  ::-webkit-progress-bar {
+    background-color:whitesmoke;
+    border-radius: 6px;
+  }
+  ::-webkit-progress-value {
+    background-color: #61DAFA;
+    text-align: center;
+    border-radius: 6px;
+  }
+  ::-webkit-progress-inner-element {
+    border: 2px solid white;
+    border-radius: 9px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+  }
+}
+
+/* /*Smartphones (landscape) ----------- */
+/* @media only screen
+and (min-width : 321px) { */
+/* /* Styles */ 
+/* } */

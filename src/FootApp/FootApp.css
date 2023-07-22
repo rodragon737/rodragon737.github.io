@@ -1,0 +1,175 @@
+/* Computer () ----------- */
+@media only screen
+and (min-device-width : 480px) {
+  /* Styles */
+.MediaButtonL {
+    flex-wrap: initial;
+    background-color:#61DAFA;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    position:relative(right);
+    bottom: 16%;
+    right: 14px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;    
+    display: flex;
+    position: fixed;
+    z-index: 3;
+  }
+  .MediaButtonL:hover {
+    transform: rotate(45deg);
+    background-color:green;
+    color: black;
+    transition: .3s ease;
+  }
+  .MediaButtonG {
+    flex-wrap: initial;
+    background-color:#61DAFA;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    bottom: 27%;
+    right: 14px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;    
+    display: flex;
+    position: fixed;
+    z-index: 4;
+  }
+  .MediaButtonG:hover {
+    transform: rotate(45deg);
+    background-color:green;
+    color: black;
+    transition: .3s ease;
+  }
+  .DivSearch {
+    display: flex;
+    flex-direction: row;
+  }
+  .DevAvatar {
+    flex-wrap: initial;
+    background-image: url('./devAvatar.png');
+    background-size: 100%;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    bottom: 5%;
+    right: 14px;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;  
+    display: flex;
+    position: fixed;
+    z-index: 2;
+  }
+
+  .DevAvatar:hover {
+    transform: rotate(35deg);
+  }
+}
+
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 479px) {
+/* Styles */
+  .MediaButtonL {
+    flex-wrap: initial;
+    background-color:#61DAFA;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    position:relative(right);
+    bottom: 60px;
+    right: 37%;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;    
+    display: flex;
+    position: fixed;
+    z-index: 3;
+  }
+  .MediaButtonL:hover {
+    transform: rotate(45deg);
+    background-color:green;
+    color: black;
+    transition: .3s ease;
+  }
+  .MediaButtonG {
+    flex-wrap: initial;
+    background-color:#61DAFA;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    bottom: 60px;
+    right: 20%;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;    
+    display: flex;
+    position: fixed;
+    z-index: 4;
+  }
+  .MediaButtonG:hover {
+    transform: rotate(45deg);
+    background-color:green;
+    color: black;
+    transition: .3s ease;
+  }
+  .DivSearch {
+    display: flex;
+    flex-direction: row;
+  }
+  .DevAvatar {
+    flex-wrap: initial;
+    background-image: url('./devAvatar.png');
+    background-size: 100%;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    bottom: 60px;
+    right: 3%;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;  
+    display: flex;
+    position: fixed;
+    z-index: 2;
+  }
+
+  .DevAvatar:hover {
+    transform: rotate(35deg);
+  }
+}

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.90812534.css",
-    "main.js": "/static/js/main.473034bc.js",
-    "static/media/devAvatar.png": "/static/media/devAvatar.4fd9c1a8ff1b713cdfe9.png",
-    "index.html": "/index.html",
-    "static/media/delete.svg": "/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
-    "static/media/check.svg": "/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
-    "main.90812534.css.map": "/static/css/main.90812534.css.map",
-    "main.473034bc.js.map": "/static/js/main.473034bc.js.map"
+    "main.css": "/tareas-pendientes/static/css/main.733de3a2.css",
+    "main.js": "/tareas-pendientes/static/js/main.019c0e80.js",
+    "static/media/devAvatar.png": "/tareas-pendientes/static/media/devAvatar.4fd9c1a8ff1b713cdfe9.png",
+    "index.html": "/tareas-pendientes/index.html",
+    "static/media/delete.svg": "/tareas-pendientes/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "static/media/check.svg": "/tareas-pendientes/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
+    "main.733de3a2.css.map": "/tareas-pendientes/static/css/main.733de3a2.css.map",
+    "main.019c0e80.js.map": "/tareas-pendientes/static/js/main.019c0e80.js.map"
   },
   "entrypoints": [
-    "static/css/main.90812534.css",
-    "static/js/main.473034bc.js"
+    "static/css/main.733de3a2.css",
+    "static/js/main.019c0e80.js"
   ]
 }

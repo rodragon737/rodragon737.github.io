@@ -31,6 +31,9 @@ function TodoProvider({ children }) {
     newTodos.push({
       text,
       completed: false,
+      day: [],
+      month: ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic",],
+      year:[],
     });
     saveTodos(newTodos);
   };

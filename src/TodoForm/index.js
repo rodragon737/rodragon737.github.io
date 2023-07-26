@@ -1,6 +1,9 @@
 import React from 'react';
+import { AddToCalendarButton } from 'add-to-calendar-button-react';
 import './TodoForm.css';
 import { TodoContext } from '../TodoContext';
+import { Calendar } from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
 function TodoForm() {
     const{
@@ -33,6 +36,7 @@ function TodoForm() {
                 value={newTodoValue}
                 onChange={onChange}
             />
+            <Calendar /> {/* https://medium.com/how-to-react/create-a-calendar-in-react-js-e48e43ab3a19 */}
             <div className='TodoForm-buttonContainer'>
                 <button 
                     type='button'
@@ -46,6 +50,11 @@ function TodoForm() {
                     >Guardar
                 </button>
             </div>
+            <AddToCalendarButton
+                name={(newTodoValue)}
+                startDate="2023-05-22"
+                options={['Apple','Google','Yahoo','iCal']}
+            />
         </form>
     )
 }
